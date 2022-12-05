@@ -1,0 +1,105 @@
+video-js .vjs-big-play-button{
+background-color: #7b1fa2; opacity: 3;}
+.video-js{
+width: auto; height: auto;
+}
+.myButton{
+	margin:2px;
+	color: white;
+box-shadow:inset 0px 1px 0px 0px #ffffff; 
+background:linear-gradient(to bottom, #4530cf 5%, #685cd1 100%); 
+background-color:#6f2f9f; 
+border-radius:6px; 
+border:1px solid #877bd4; 
+display:inline-block; 
+cursor:pointer; 
+font-family:Arial; 
+font-size:15px; 
+font-weight:bold; 
+padding:6px 24px; 
+text-decoration:none;
+ text-shadow:0px 1px 0px #b8b1e0; 
+text-align: center;}
+
+.myButton:hover{
+background:linear-gradient(to bottom, #77a809 5%, #89c403 100%); 
+background-color:#77a809;}
+
+.myButton:active{
+position:relative; top:1px;
+}
+.cusbuttom{
+background-color:#f8b334;
+ line-height: 37px; 
+border-radius:7px; 
+border:1px solid #18ab29;
+ display:inherit; 
+cursor:pointer; 
+color:#000000;
+ font-family:monospace; 
+text-align: center; 
+font-size:17px; text-decoration:none;
+}
+.cusbuttom:hover{
+background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+ background-color:#5cbf2a;}
+.cusbuttom:active{position:relative; top:1px;}
+#player-wrapper-live{width: auto; height: 360px;}
+.cuscontainer{box-shadow: 0 0 1px rgb(0 0 0 / 30%);
+ background: #fff; overflow: auto; border-radius: 8px; 
+width: auto; height: auto; padding: 10px; background-color: white;}
+#refreshBtn{
+	margin:2px;
+	color: white;
+box-shadow:inset 0px 1px 0px 0px #ffffff; 
+background:linear-gradient(to bottom, pink 5%, red 100%); 
+background-color:#6f2f9f; 
+border-radius:6px; 
+border:1px solid #877bd4; 
+display:inline-block; 
+cursor:pointer; 
+font-family:Arial; 
+font-size:15px; 
+font-weight:bold; 
+padding:6px 24px; 
+text-decoration:none;
+ text-shadow:0px 1px 0px #b8b1e0; 
+text-align: center;}
+#livetitle{
+	text-align: center;
+	display: block;
+	color: white;
+	}
+	#joinTG{
+		text-align: right;
+		display:block;
+		}
+		
+		.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear infinite;
+  display: inline-block;
+      font-size: 40px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
